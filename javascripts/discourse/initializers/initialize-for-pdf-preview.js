@@ -17,7 +17,7 @@ export default {
   name: "pdf-previews",
   initialize() {
     withPluginApi("0.8.41", api => {
-      if (Mobile.mobileView) return;
+      //if (Mobile.mobileView) return;
 
       try {
         api.decorateCookedElement(
